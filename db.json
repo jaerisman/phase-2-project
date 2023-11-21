@@ -1,0 +1,18 @@
+{
+    "hikes": [
+      {
+        "id": 1,
+        "name": "Elk Meadow",
+        "image": "",
+        "likes": 0,
+        "comments": ""
+      },
+      {
+        "id": 2,
+        "name": "Buzz Lightyear",
+        "image": "",
+        "likes": 0,
+        "comments": ""
+      }
+    ]
+  }
