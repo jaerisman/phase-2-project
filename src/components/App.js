@@ -1,14 +1,12 @@
 import React from "react";
-import Home from "./Home";
 import Header from "./Header";
-import AllHikes from "./AllHikes";
+import NavBar from "./NavBar";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Home />
-      <AllHikes />
+      <NavBar />
     </div>
   );
 }
