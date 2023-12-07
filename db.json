@@ -5,11 +5,11 @@
         "name": "Elk Meadow",
         "image": "",
         "likes": 0,
-        "comments": ""
+        "description": "A beautiful meadow leads to the wooded slopes of Bergen Peak. Stroll around the meadow, or take on the rigorous climb to the top of Bergen Peak. As the name suggests, there is often a herd of elk relaxing in the meadow."
       },
       {
         "id": 2,
-        "name": "Buzz Lightyear",
+        "name": "Lair o' the Bear",
         "image": "",
         "likes": 0,
         "comments": ""

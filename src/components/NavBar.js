@@ -9,13 +9,13 @@ function NavBar(){
             <NavLink to="/">Home</NavLink>
         </li>
         <li>
-            <NavLink to="/AllHikes">All Hikes</NavLink>
+            <NavLink to="/all-hikes">All Hikes</NavLink>
         </li>
         <li>
-            <NavLink to="/AddAHike">Add A Hike</NavLink>
+            <NavLink to="/completed-hikes">Completed Hikes</NavLink>
         </li>
         <li>
-            <NavLink to="/CompletedHikes">Completed Hikes</NavLink>
+            <NavLink to="/add-a-hike">Add a Hike</NavLink>
         </li>
       </ul>
     </nav>
