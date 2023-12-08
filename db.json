@@ -29,6 +29,12 @@
       "name": "Evergreen Mountain",
       "image": "./images/Evergreen-Mountain.jpg",
       "description": "A steady climb through a forest provides great views of Mount Evans from the top of Evergreen Mountain. With so many pine trees, this hike can feel like a winter wonderland after a recent snow."
+    },
+    {
+      "id": 6,
+      "name": "Crater Lake",
+      "image": "./images/Crater-Lake.jpg",
+      "description": "A challenging day hike, but the views are definitely worth the effort! The serene Crater Lake sits beneath Lone Eagle Peak at the top of the hike. The lake shore is a great place to relax and eat lunch before starting the hike back."
     }
   ]
 }
