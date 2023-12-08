@@ -10,7 +10,6 @@ function AllHikes(){
         <NavBar />
       </header>
       <main>
-        <h2>All Hikes:</h2>
         <HikesList />
       </main>
     </>

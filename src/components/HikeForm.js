@@ -31,7 +31,7 @@ function HikeForm (){
 
     return (
         <form onSubmit={handleSubmit}>
-        <label>
+        <label className='hike-name'>
             Hike Name:
             <input
             type="text"
