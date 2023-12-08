@@ -7,9 +7,6 @@ const HikeCard = ({ hike }) => {
     <div className="hike-card">
       <h2>{name}</h2>
       <img className="hike-image" src={image} alt={`Image for ${name}`} />
-      <div>
-
-      </div>
       <p>{description}</p>
     </div>
   );
