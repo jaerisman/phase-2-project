@@ -31,17 +31,15 @@ Hikes submitted through the form on the Add a Hike page will be added to the db.
 
 ## References
 
-The background image of the **Home** page and all images on the **All Hikes** page were taken by the application's author
+The background image of the **Home** page and all images on the **All Hikes** page were taken by the application's author.
+
+The application was built using the React JavaScript library and the <a href="https://react.dev/reference/react">React reference documentation</a>. 
 
 The following MDN Web Documents were also referenced in the making of this application: 
 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList">MDN Web Docs: Element: classList property</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">MDN Web Docs: EventTarget: addEventListener() method</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/fetch">MDN Web Docs: fetch() global function</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt">MDN Web Docs: parseInt()</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">MDN Web Docs: Promise.prototype.then()</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST">MDN Web Docs: POST Method</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Response/json">MDN Web Docs: Response: json() method</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">MDN Web Docs: String.prototype.replace()</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim">MDN Web Docs: String.prototype.trim()</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">MDN Web Docs: The Anchor element</a>
-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body">MDN Web Docs: The Document Body element</a>
