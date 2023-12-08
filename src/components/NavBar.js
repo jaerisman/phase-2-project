@@ -12,9 +12,6 @@ function NavBar(){
             <NavLink to="/all-hikes">All Hikes</NavLink>
         </li>
         <li>
-            <NavLink to="/completed-hikes">Completed Hikes</NavLink>
-        </li>
-        <li>
             <NavLink to="/add-a-hike">Add a Hike</NavLink>
         </li>
       </ul>

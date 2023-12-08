@@ -1,15 +1,7 @@
 import React from 'react';
 
 const HikeCard = ({ hike }) => {
-  const { name, image, likes, description } = hike;
-
-  const handleLike = () => {
-    console.log("Hike Liked")
-  };
-
-  const handleComplete = () => {
-    console.log("Hike Completed")
-  };
+  const { id, name, image, description } = hike;
 
   return (
     <div className="hike-card">
@@ -19,9 +11,6 @@ const HikeCard = ({ hike }) => {
 
       </div>
       <p>{description}</p>
-      <p>{likes} Likes</p>
-      <button onClick={handleLike}>Like</button>
-      <button onClick={handleComplete}>Completed</button>
     </div>
   );
 };

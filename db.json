@@ -4,24 +4,21 @@
       "id": 1,
       "name": "Elk Meadow",
       "image": "./images/Elk-Meadow.jpg",
-      "likes": 0,
-      "completed": false,
+      "completed": true,
       "description": "A beautiful meadow leads to the wooded slopes of Bergen Peak. Stroll around the meadow, or take on the rigorous climb to the top of Bergen Peak. As the name suggests, there is often a herd of elk relaxing in the meadow."
     },
     {
       "id": 2,
       "name": "Lair O' the Bear",
       "image": "./images/Lair-o-the-Bear.jpg",
-      "likes": 0,
-      "completed": false,
+      "completed": true,
       "description": "A mostly flat trail along Bear Creek in the foothills west of Morrison. Great fall colors with plenty of cottonwoods along the creek. Be on the lookout for bears and other wildlife!"
     },
     {
       "id": 3,
       "name": "High Line Canal",
       "image": "./images/High-Line-Canal.jpg",
-      "likes": 0,
-      "completed": false,
+      "completed": true,
       "description": "A flat gravel trail that meanders along the High Line Canal through south Denver. Great for bike rides or jogging. Some nice nature preserves, mountain views, and chances for bird watching along the way."
     }
   ]
