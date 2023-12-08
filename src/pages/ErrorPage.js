@@ -1,4 +1,5 @@
 import NavBar from "../components/NavBar";
+import Header from "../components/Header";
 import { useRouteError } from "react-router-dom";
 
 function ErrorPage() {
@@ -8,10 +9,11 @@ function ErrorPage() {
   return (
     <>
       <header>
+        <Header />
         <NavBar />
       </header>
       <main>
-        <h1>Error message: This route does not exist. Please select a different page from the menu.</h1>
+        <h2>Error message: This page does not exist. Please select a different page from the menu.</h2>
       </main>
     </>
   );
