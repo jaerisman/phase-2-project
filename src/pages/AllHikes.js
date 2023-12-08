@@ -5,10 +5,8 @@ import HikesList from "../components/HikesList";
 function AllHikes(){
   return (
     <>
-      <header>
-        <Header />
-        <NavBar />
-      </header>
+      <Header />
+      <NavBar />
       <main>
         <HikesList />
       </main>

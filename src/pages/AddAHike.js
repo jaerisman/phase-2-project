@@ -4,13 +4,15 @@ import NavBar from "../components/NavBar";
 import HikeForm from '../components/HikeForm';
 
 function AddAHike(){
-    return (
-        <div>
-          <Header />
-          <NavBar />
-          <HikeForm />
-        </div>
-    );
+  return (
+    <>
+      <Header />
+      <NavBar />
+      <main>
+        <HikeForm />
+      </main>
+    </>
+  );
 };
 
 export default AddAHike;
