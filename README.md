@@ -3,10 +3,10 @@
 Hiking CO is a web application that displays information about hikes in Colorado. The site has three pages that users can navigate to through a menu bar on each page: 
 
 - The **Home** page introduces the site. 
-- The **All Hikes** page contains a list of current hikes with a name, image, and desciption for each hike.
+- The **All Hikes** page displays a list of current hikes with a name, image, and desciption for each hike.
 - The **Add a Hike** page contains a form that allows users to submit their own hikes, which will then appear on the All Hikes page. 
 
-Each of these three pages have their own client-side route. There is also an **Error** page that displays if a user tries to navigate to a route that does not exist. 
+Each page has its own client-side route. There is also an **Error** page that appears if a user tries to navigate to a route that does not exist. 
 
 The following components make up the content and functionality of the site's pages: 
 
@@ -19,13 +19,13 @@ The following components make up the content and functionality of the site's pag
 
 ## Data Source
 
-The application fetches data from its db.json file. With `json-server` installed globally, users can run the following command to run the server: 
+The application fetches data from a db.json file. With `json-server` installed globally, users can run the following command to run the server: 
 
 ```console
 $ json-server --watch db.json
 ```
 
-The application will then make a GET request to `http://localhost:3001/hikes` to fetch data from the db.json file each time the page refreshes. 
+The application will make a GET request to `http://localhost:3001/hikes` to fetch data from the db.json file each time the All Hikes page refreshes. 
 
 Hikes submitted through the form on the Add a Hike page will be added to the db.json file through a POST request to `http://localhost:3001/hikes`.  
 
