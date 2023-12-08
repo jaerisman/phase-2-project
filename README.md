@@ -2,7 +2,7 @@
 
 Hiking CO is a web application that displays information about hikes in Colorado. The site has three pages that users can navigate to through a menu bar on each page: 
 
-- The **Home** page introduces the site. 
+- The **Home** page introduces the site and has a background image of Chautauqua Park. 
 - The **All Hikes** page displays a list of current hikes with a name, image, and desciption for each hike.
 - The **Add a Hike** page contains a form that allows users to submit their own hikes, which will then appear on the All Hikes page. 
 
@@ -35,7 +35,7 @@ Hikes submitted through the form on the Add a Hike page will be added to the db.
 
 ## References
 
-The background image of the **Home** page and all images on the **All Hikes** page were taken by the application's author.
+The background image of the Home page and all images on the All Hikes page were taken by the application's author. The image URL included in the demonstration gif above is from the <a href="https://en.wikipedia.org/wiki/Mount_Bierstadt">Mount Bierstadt Wikipedia page</a>.   
 
 The application was built using the React JavaScript library and the <a href="https://react.dev/reference/react">React reference documentation</a>. 
 
