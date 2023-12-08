@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HikeCard = ({ hike }) => {
-  const { id, name, image, description } = hike;
+  const { name, image, description } = hike;
 
   return (
     <div className="hike-card">
