@@ -17,6 +17,10 @@ The following components make up the content and functionality of the site's pag
 - Hikes List
 - Navigation Bar
 
+Here is a demonstration of the site's content and functionality: 
+
+<img src="Hiking-CO.gif" alt="Alt Text" width="501" height="222"><br>
+
 ## Data Source
 
 The application fetches data from a db.json file. With `json-server` installed globally, users can run the following command to run the server: 

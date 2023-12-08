@@ -21,7 +21,7 @@ function HikeForm ({ addHike }){
         })
             .then((response) => response.json())
             .then((data) => {
-                addHike(data); // Update state in the parent component
+                addHike(data);
                 setName('');
                 setImage('');
                 setDescription('');
