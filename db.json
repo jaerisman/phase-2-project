@@ -4,22 +4,31 @@
       "id": 1,
       "name": "Elk Meadow",
       "image": "./images/Elk-Meadow.jpg",
-      "completed": true,
       "description": "A beautiful meadow leads to the wooded slopes of Bergen Peak. Stroll around the meadow, or take on the rigorous climb to the top of Bergen Peak. As the name suggests, there is often a herd of elk relaxing in the meadow."
     },
     {
       "id": 2,
       "name": "Lair O' the Bear",
       "image": "./images/Lair-o-the-Bear.jpg",
-      "completed": true,
       "description": "A mostly flat trail along Bear Creek in the foothills west of Morrison. Great fall colors with plenty of cottonwoods along the creek. Be on the lookout for bears and other wildlife!"
     },
     {
       "id": 3,
       "name": "High Line Canal",
       "image": "./images/High-Line-Canal.jpg",
-      "completed": true,
       "description": "A flat gravel trail that meanders along the High Line Canal through south Denver. Great for bike rides or jogging. Some nice nature preserves, mountain views, and chances for bird watching along the way."
+    },
+    {
+      "id": 4,
+      "name": "Chautauqua Park",
+      "image": "./images/Chautauqua.jpg",
+      "description": "Chautauqua  Park offers an iconic view of the Flatirons and myriad hiking options on the edge of Boulder. The Royal Arch is a popular choice for a challenging hike with a view that's worth the effort."
+    },
+    {
+      "id": 5,
+      "name": "Evergreen Mountain",
+      "image": "./images/Evergreen-Mountain.jpg",
+      "description": "A steady climb through a forest provides great views of Mount Everest from the top of Evergreen Mountain. With so many pine trees, this hike can feel like a winter wonderland after a recent snow."
     }
   ]
 }

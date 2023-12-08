@@ -10,7 +10,7 @@ function Home(){
             <NavBar />
           </header>
           <main>
-            <p>Welcome to Hiking CO! Learn about some of Colorado's great hikes, add your own hikes, and track the ones you've completed. Happy hiking!</p>
+            <h3>Welcome to Hiking CO! Learn about some of Colorado's great hikes, add your own hikes, and track the ones you've completed. Happy hiking!</h3>
           </main>
         </>
     );
