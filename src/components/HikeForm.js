@@ -31,35 +31,39 @@ function HikeForm (){
 
     return (
         <form onSubmit={handleSubmit}>
-      <label>
-        Hike Name:
-        <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Hike Image (Link):
-        <input
-          type="text"
-          value={image}
-          onChange={(e) => setImage(e.target.value)}
-        />
-      </label>
-      <br />
-      <label>
-        Hike Description (50-word maximum):
-        <textarea
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-        />
-      </label>
-      <br />
-      <button type="submit">Add Hike</button>
-    </form>
-  );
+        <label>
+            Hike Name:
+            <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder='Enter hike name'
+            />
+        </label>
+        <br />
+        <label>
+            Hike Image:
+            <input
+            type="text"
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
+            placeholder='Enter image URL'
+            />
+        </label>
+        <br />
+        <label>
+            Hike Description:
+            <br></br>
+            <textarea
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            placeholder='Enter hike description'
+            />
+        </label>
+        <br />
+        <button type="submit">Add Hike</button>
+        </form>
+    );
 };
 
 export default HikeForm;

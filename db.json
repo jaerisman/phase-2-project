@@ -29,6 +29,12 @@
       "name": "Evergreen Mountain",
       "image": "./images/Evergreen-Mountain.jpg",
       "description": "A steady climb through a forest provides great views of Mount Everest from the top of Evergreen Mountain. With so many pine trees, this hike can feel like a winter wonderland after a recent snow."
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "id": 6
     }
   ]
 }

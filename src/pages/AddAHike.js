@@ -6,10 +6,8 @@ import HikeForm from '../components/HikeForm';
 function AddAHike(){
     return (
         <div>
-          <header>
-            <Header />
-            <NavBar />
-          </header>
+          <Header />
+          <NavBar />
           <HikeForm />
         </div>
     );
