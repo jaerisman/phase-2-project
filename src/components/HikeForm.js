@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function HikeForm (){
+function HikeForm ({ addHike }){
     const [name, setName] = useState('');
     const [image, setImage] = useState('');
     const [description, setDescription] = useState('');
@@ -16,17 +16,16 @@ function HikeForm (){
 
         fetch('http://localhost:3001/hikes', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newHike),
         })
             .then((response) => response.json())
-            .then((data) => {})
-
-        setName('');
-        setImage('');
-        setDescription('');
+            .then((data) => {
+                addHike(data); // Update state in the parent component
+                setName('');
+                setImage('');
+                setDescription('');
+            })
     };
 
     return (

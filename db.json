@@ -35,6 +35,18 @@
       "name": "Crater Lake",
       "image": "./images/Crater-Lake.jpg",
       "description": "A challenging day hike, but the views are definitely worth the effort! The serene Crater Lake sits beneath Lone Eagle Peak at the top of the hike. The lake shore is a great place to relax and eat lunch before starting the hike back."
+    },
+    {
+      "name": "Hike 1",
+      "image": "",
+      "description": "Hike 1",
+      "id": 7
+    },
+    {
+      "name": "Hike 1",
+      "image": "",
+      "description": "Hike 14",
+      "id": 8
     }
   ]
 }
