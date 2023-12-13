@@ -5,7 +5,7 @@ const HikesList = () => {
     const [hikes, setHikes] = useState([]);
   
     useEffect(() => {
-      fetch("http://localhost:3001/hikes")
+      fetch("http://localhost:3000/hikes")
         .then((response) => response.json())
         .then((data) => setHikes(data));
     }, []);

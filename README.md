@@ -29,9 +29,9 @@ The application fetches data from a db.json file. With `json-server` installed g
 $ json-server --watch db.json
 ```
 
-The application will make a GET request to `http://localhost:3001/hikes` to fetch data from the db.json file each time the All Hikes page refreshes. 
+The application will make a GET request to `http://localhost:3000/hikes` to fetch data from the db.json file each time the All Hikes page refreshes. 
 
-Hikes submitted through the form on the Add a Hike page will be added to the db.json file through a POST request to `http://localhost:3001/hikes`.  
+Hikes submitted through the form on the Add a Hike page will be added to the db.json file through a POST request to `http://localhost:3000/hikes`.  
 
 ## References
 

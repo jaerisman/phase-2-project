@@ -14,7 +14,7 @@ function HikeForm ({ addHike }){
             description,
         };
 
-        fetch('http://localhost:3001/hikes', {
+        fetch('http://localhost:3000/hikes', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newHike),
